@@ -3,13 +3,22 @@ README.md
 # Landing Page Template
 This is a landing page in 2 parts. 
  1) index.php - is a basic Bootstrap layout for a landing page.
- 2) vo-landing-page.php - is a basic Bootstrap layout with WordPress variables. 
+ 2) vo-landing-page.php - is a basic Bootstrap layout with WordPress variables.
+
+ To see a working version of the Landing Page you can visit
+ vanstoneonline.com 
 
 ## Installation
 
     1) index.html is ready to use on any server 
 
-    2) To install it on WordPress. Drag the vo-landing-page.php with the folders scss, and images.
+    2) To install it on WordPress. 
+    Drag the following to the desired theme
+     - vo-landing-page.php 
+     - folders 
+        - scss
+        - images
+
 
 ## Usage
 
