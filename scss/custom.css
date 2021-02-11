@@ -1,5 +1,4 @@
 :root {
-  --accent: #000;
   --font-color: #fff;
 }
 
@@ -9,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("https://vanstoneonline.com/wp-content/themes/vanstoneonline/images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
@@ -18,25 +17,21 @@ body {
   color: var(--font-color);
 }
 
-a, :visited {
+a, a:visited {
   color: var(--font-color);
 }
 
 .container-fluid {
   background-color: rgba(1, 2, 34, 0.6);
+  min-height: 100%;
 }
 
 header {
   height: 120px;
 }
 
-img.logo {
-  width: 150px;
-}
-
-main {
-  max-width: 804px;
-  min-height: 345px;
+main h1 {
+  color: white !important;
 }
 
 footer {
@@ -47,6 +42,10 @@ footer {
 
 footer img {
   max-width: 166px;
+}
+
+.feature > p {
+  font-size: 0.75rem !important;
 }
 
 .btn-orange {
@@ -86,12 +85,17 @@ footer img {
           justify-content: flex-end;
 }
 
+#homeMenu a, #homeMenu a:visited {
+  margin: 4rem;
+  font-size: 2rem !important;
+}
+
 @media (min-width: 576px) {
   .container-xxl {
     height: 100%;
   }
   header {
-    height: 200px;
+    height: 180px;
   }
   #homeMenu {
     margin-right: 4rem;
@@ -101,8 +105,8 @@ footer img {
             justify-content: flex-end;
   }
   main {
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+    margin-top: 2rem !important;
+    margin-bottom: 10rem !important;
   }
   .icons {
     margin-top: 5rem;
