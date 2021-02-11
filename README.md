@@ -9,7 +9,7 @@ This is a landing page in 2 parts.
 
     1) index.html is ready to use on any server 
 
-    2) To install it on WordPress. Drag the vo-landing-page.php with the folders (scss, and images)
+    2) To install it on WordPress. Drag the vo-landing-page.php with the folders scss, and images.
 
 ## Usage
 
