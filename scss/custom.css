@@ -85,11 +85,6 @@ footer img {
           justify-content: flex-end;
 }
 
-#homeMenu a, #homeMenu a:visited {
-  margin: 4rem;
-  font-size: 2rem !important;
-}
-
 @media (min-width: 576px) {
   .container-xxl {
     height: 100%;

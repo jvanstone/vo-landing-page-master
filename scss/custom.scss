@@ -64,27 +64,22 @@
   
   //Custom NavBar beyond Bootstrap
   .navbar-light .navbar-nav .nav-link {
-      color: whitesmoke;
-  }
-  .navbar-light .navbar-nav .nav-link:hover {
-      color: whitesmoke;
-  }
-  
-  .navbar-light .navbar-toggler-icon{
-      background-image: url('../images/vo-logo.png')!important;
-      background-size: contain;
-      width: 40px;
-  }   
-  
-  #homeMenu {
-      background-color: #1415379b;
-      justify-content: flex-end;
-  }
-  
-  #homeMenu a, #homeMenu a:visited  { 
-      margin: 4rem;
-      font-size: 2rem!important;
-  }
+    color: whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: whitesmoke;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url('../images/vo-logo.png')!important;
+    background-size: contain;
+    width: 40px;
+}   
+
+#homeMenu {
+    background-color: #1415379b;
+    justify-content: flex-end;
+}
   
   
    // larger devices

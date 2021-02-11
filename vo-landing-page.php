@@ -16,7 +16,6 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -33,22 +32,24 @@
     <div class="container-fluid mb-10">
             <div class="container-xxl offset-1">
                 <header class="">
-                    <nav class="navbar navbar-expand-lg navbar-light " role="navigation"> 
-                        <div class="navbar-header">
-                        <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a></h1>
-                        <a href="#" class="navbar-brand"><img class="logo" src="./images/Vanstone Online.svg" alt="Vanstone Online" /></a>
-                        </div>
-                        <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#homeMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
-                        <div class="collapse navbar-collapse" id="homeMenu">
-                            <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-                            <a href="#" class="nav-item nav-link active" aria-current="page">Home</a>
-                            <a href="#" class="nav-item nav-link">About</a>
-                            <a href="#" class="nav-item nav-link">Docs</a>
-                            <button type="button" class="btn btn-orange m-1" href="#">Login</button>
-                        </div>
-                    </nav>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <nav class="navbar navbar-expand-lg navbar-light " role="navigation"> 
+                            <div class="navbar-header">
+                            <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a></h1>
+                            <a href="#" class="navbar-brand"><img class="logo" src="./images/Vanstone Online.svg" alt="Vanstone Online" /></a>
+                            </div>
+                            <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#homeMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            <div class="collapse navbar-collapse" id="homeMenu">
+                                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+                                <a href="#" class="nav-item nav-link active" aria-current="page">Home</a>
+                                <a href="#" class="nav-item nav-link">About</a>
+                                <a href="#" class="nav-item nav-link">Docs</a>
+                                <button type="button" class="btn btn-orange m-1" href="#">Login</button>
+                            </div>
+                        </nav>
+                    </div>
                 </header>
                 <main>
                     <h1 class="display-5">WordPress Development <br>& Web Design</h1>
